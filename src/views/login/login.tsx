@@ -3,8 +3,8 @@ import "./login.css";
 
 export function Login() {
   return (
-    <div>
-      <h1>Any place in your app!</h1>
+    <div className="container-form">
+      <h1>Sign in</h1>
       <Formik
         initialValues={{ email: "", password: "" }}
         validate={(values) => {
@@ -26,12 +26,14 @@ export function Login() {
         }}
       >
         {({ isSubmitting }) => (
-          <Form>
-            <Field type="email" name="email" />
-            <ErrorMessage name="email" component="div" />
-            <Field type="password" name="password" />
+          <Form className="form">
+            <label className="label-email">Email</label>
+            <Field type="email" name="email" className="input" />
+            <ErrorMessage name="email" component="div" className="error" />
+            <label>Password</label>
+            <Field type="password" name="password" className="input" />
             <ErrorMessage name="password" component="div" />
-            <button type="submit" disabled={isSubmitting}>
+            <button type="submit" disabled={isSubmitting} className="submit">
               Submit
             </button>
           </Form>
