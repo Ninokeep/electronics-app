@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "email": "toto@gmail.com",
+      "password": "$2a$10$STTVQEHemOVLTG34Vv5UyehgxDfl7K9Q6SfJGxfJRqppsGMXysxQS",
+      "id": 1
+    },
+    {
+      "email": "totoa@gmail.com",
+      "password": "$2a$10$W5FUIGI9/FqvHJIDM3lCX.oFzlQIn1.uYjKmBBYs4wEKvKl6VSc02",
+      "id": 2
+    }
+  ],
+  "electronics": [
+    {
+      "id": 1,
+      "marque": "Apple iPhone 13 Pro",
+      "description": "Éclat et élégance à portée de main.",
+      "prix": 1150.5,
+      "img": "/img/iphone-13-pro.jpg",
+      "rate": 5
+    },
+    {
+      "id": 2,
+      "marque": "Samsung Galaxy S22 Ultra",
+      "description": "Repoussez les limites de la technologie mobile.",
+      "prix": 1100.75,
+      "img": "/img/samsung-13-ultra.jpg",
+      "rate": 5
+    },
+    {
+      "id": 3,
+      "marque": "Sony PlayStation 5",
+      "description": "Plongez dans le futur du gaming.",
+      "prix": 499.99,
+      "img": "/img/ps5.jpg",
+      "rate": 5
+    },
+    {
+      "id": 4,
+      "marque": "Dell XPS 15",
+      "description": "Puissance et portabilité redéfinies.",
+      "prix": 2000.9,
+      "img": "/img/dell.jpg",
+      "rate": 2
+    },
+    {
+      "id": 5,
+      "marque": "Canon EOS R6 Mirrorless Camera",
+      "description": "Capturez la magie, instant après instant.",
+      "prix": 2400.3,
+      "img": "/img/eos-r6.jpg",
+      "rate": 3
+    }
+  ]
+}
